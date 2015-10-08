@@ -1,0 +1,27 @@
+{
+  "name": "socket.io-chat",
+  "version": "1.0.0",
+  "description": "A simple socket.io-based chat using jQuery, Bootstrap, and Browserify.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richdunajewski/socket.io-chat.git"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "Rich Dunajewski <me@richdunajewski.com> (http://richdunajewski.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richdunajewski/socket.io-chat/issues"
+  },
+  "homepage": "https://github.com/richdunajewski/socket.io-chat#readme",
+  "dependencies": {
+    "browserify": "^11.2.0",
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  }
+}

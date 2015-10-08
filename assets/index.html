@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chat Client</title>
+        <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/screen.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="chat-history">
+
+        </div>
+
+        <form class="form-inline">
+            <textarea class="form-control pull-left" id="msg-box" cols="80" rows="4"></textarea>
+            <button class="btn btn-primary pull-left" id="send">Send</button>
+        </form>
+
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/bundle.js"></script>
+    </body>
+</html>
